@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap&family=Share+Tech&display=swap");
+/********Root CSS*****/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  scroll-behavior: smooth;
+}
+:root {
+  --background-color: rgb(1, 1, 34);
+  --text-color: #c5c6c7;
+  --buttontext-color: #ff0f7b;
+  --font-header: "Poiret One", cursive;
+  --font-text: "Share Tech", sans-serif;
+}
+html,
+body {
+  font-size: 62.5%;
+  background-color: var(--background-color);
+}
+.center {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 100vh;
+  height: 60vh;
+}
+.child {
+  margin: 10px auto auto auto;
+  border: #4b4168 0.5vh solid;
+  width: 85vh;
+  height: 50vh;
+  background-color: #393053;
+  transition: 0.5s;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.child:hover {
+  border: #6d6487 0.5vh solid;
+  box-shadow: 0px 0px 10px #6d6487;
+}
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#target {
+  visibility: hidden;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 100%;
+  background-color: var(--buttontext-color);
+  transition: 0.5s;
+  box-shadow: 0px 0px 25px var(--buttontext-color);
+  position: absolute;
+}
+#score {
+  font-family: var(--font-text);
+  margin: auto;
+  font-size: 3vh;
+  color: var(--text-color);
+  float: left;
+}
+#timer {
+  font-family: var(--font-text);
+  margin: auto;
+  font-size: 3vh;
+  color: var(--text-color);
+}
+#accuracy {
+  font-family: var(--font-text);
+  margin: auto;
+  font-size: 3vh;
+  color: var(--text-color);
+}
+#bullets {
+  font-family: var(--font-text);
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 3rem;
+  color: var(--buttontext-color);
+}
+#start {
+  font-family: var(--font-text);
+  width: 20vh;
+  margin-top: 22.5vh;
+  margin-left: 32.5vh;
+  padding: 1rem;
+  text-align: center;
+  font-size: 3vh;
+  color: var(--text-color);
+  background-color: var(--buttontext-color);
+  transition: 0.5s;
+  position: absolute;
+}

@@ -89,6 +89,16 @@ li .play-button {
   font-family: var(--font-text);
   color: var(--text-color);
 }
+.home-container a {
+  font-size: 2rem;
+  font-family: var(--font-text);
+  text-decoration: none;
+  color: var(--text-color);
+  background-color: var(--buttontext-color);
+  padding: 1rem 3rem;
+  font-weight: bold;
+  border-radius: 0.5rem;
+}
 /*********About Container CSS************/
 .about-container {
   margin-top: 10rem;
